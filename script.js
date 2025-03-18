@@ -1,7 +1,3 @@
-function downloadApp() {
-    alert("Downloading ReShade... Coming soon!");
-}
-
 document.getElementById("contact-form").addEventListener("submit", function(event) {
     event.preventDefault(); // Stop default form submission
     let form = this;

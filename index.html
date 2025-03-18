@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReShade - Game Optimizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="texties">   
+            <h1>ReShade</h1>
+            <p>Optimize your games automatically, including Minecraft, Roblox, and more.</p>
+            <button onclick="downloadApp()">Download Now</button>
+        </div>
+    </header>
+
+    <section class="features-container">
+        <div class="features">
+            <div class="feature">
+                <h2>🚀 Boost Performance</h2>
+                <p>Automatically enhances game settings and installs modules for the best FPS.</p>
+            </div>
+            <div class="feature">
+                <h2>🖥️ Smart Optimization</h2>
+                <p>Custom made settings tailored to your PC's hardware, and for better performance.</p>
+            </div>
+            <div class="feature">
+                <h2>🎮 Seamless Integration</h2>
+                <p>Supports multiple games, including Minecraft, Roblox, etc.</p>
+            </div>
+        </div>
+        <div class="video-container">
+            <video autoplay loop muted playsinline>
+                <source src="design/thumbsUp.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+
+    <section class="how-it-works">
+        <h2>How It Works</h2>
+        <div class="steps">
+            <div class="step">
+                <h3>1. Install ReShade</h3>
+                <p>Download and install ReShade on your PC.</p>
+            </div>
+            <div class="step">
+                <h3>2. Scan Your Games</h3>
+                <p>ReShade detects installed games automatically.</p>
+            </div>
+            <div class="step">
+                <h3>3. Optimize Settings</h3>
+                <p>And then the program tweaks game settings and downloads performance module for the best performance.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>What People Say</h2>
+        <div class="reviews">
+            <div class="review">
+                <p>"ReShade boosted my FPS in Minecraft by almost twice! Love it!"</p>
+                <h4>- PC Gamer</h4>
+            </div>
+            <div class="review">
+                <p>"This app optimized my game settings perfectly when filming videos."</p>
+                <h4>- Mr. Beast</h4>
+            </div>
+            <div class="review">
+                <p>"Seamless experience, works flawlessly."</p>
+                <h4>- Markipiler</h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="download" id="download">
+        <h2>Download ReShade</h2>
+        <p>Choose your version:</p>
+        <div class="download-options">
+            <a href="downloads/ReShade-Windows.zip" download="ReShade-Windows.zip">
+                <button class="download-button">Download for Windows</button>
+            </a>
+            <a href="downloads/ReShade-Mac.zip" download="ReShade-Mac.zip">
+                <button class="download-button">Download for Mac</button>
+            </a>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form action="https://formsubmit.co/ii1" method="POST" id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p id="success-message" style="display: none; color: lightgreen; margin-top: 10px;">✅ Email sent successfully!</p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

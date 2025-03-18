@@ -32,4 +32,4 @@ document.getElementById("contact-form").addEventListener("submit", function(even
         form.reset(); // Clear the form
     }).catch(error => console.error("Error:", error));
 });
-
+ 

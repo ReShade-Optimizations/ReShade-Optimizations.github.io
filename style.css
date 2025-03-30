@@ -15,6 +15,18 @@ header {
     font-size: 24px;
 }
 
+.logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header-logo {
+    width: 50px;
+    height: 50px;
+}
+
 header::after {
     content: '';
     position: absolute;
@@ -86,19 +98,19 @@ video {
     text-align: center;
     padding: 100px 20px;
     background: url('design/RobloxDesign.png') center/cover no-repeat;
-    position: relative; /* Required for the pseudo-elements */
-    overflow: hidden; /* Ensures the gradients don't overflow */
+    position: relative; 
+    overflow: hidden;
 }
 
 .how-it-works::before {
     content: '';
     position: absolute;
-    top: 0; /* Position at the top */
+    top: 0; 
     left: 0;
     width: 100%;
-    height: 150px; /* Adjust the height of the top gradient */
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); /* Gradient at the top */
-    pointer-events: none; /* Ensures the gradient doesn't interfere with clicks */
+    height: 150px; 
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); 
+    pointer-events: none; 
 }
 
 .steps {
@@ -121,19 +133,19 @@ video {
     padding: 80px 20px;
     background: linear-gradient(90deg, #9333ea, #1e3a8a);
     color: white;
-    position: relative; /* Required for the pseudo-element */
-    overflow: hidden; /* Ensures the gradient doesn't overflow */
+    position: relative; 
+    overflow: hidden; 
 }
 
 .testimonials::before {
     content: '';
     position: absolute;
-    top: 0; /* Position at the top */
+    top: 0; 
     left: 0;
     width: 100%;
-    height: 150px; /* Adjust the height of the top gradient */
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); /* Black gradient at the top */
-    pointer-events: none; /* Ensures the gradient doesn't interfere with clicks */
+    height: 150px; 
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); 
+    pointer-events: none; 
 }
 
 .reviews {
